@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDIT: your name and a short description -->
+  <title>Kinzang Dendup | Portfolio</title>
+  <meta name="description" content="Portfolio of YOUR NAME, YOUR HEADLINE.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+
+  <a class="visually-hidden-focusable skip-link" href="#home">Skip to content</a>
+
+  <!-- NAVBAR -->
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top site-nav">
+    <div class="container">
+      <a class="navbar-brand brand" href="#home">Kinzang</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <button id="themeToggle" class="btn btn-outline-secondary btn-sm theme-btn" type="button"
+                    aria-label="Switch to dark theme">
+              <i class="bi bi-moon-stars" aria-hidden="true"></i>
+              <span class="ms-1">Theme</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7 order-2 order-lg-1">
+            <p class="hero-hello">Hello!</p>
+            <h1 class="hero-name">Kinzang Dendup</h1>
+            <!-- EDIT: headline describing who you are -->
+            <p class="hero-headline">Computer Systems & Networking Student | Aspiring Network Engineer & Software Developer.</p>
+            <!-- EDIT: 2 to 3 sentence introduction -->
+            <p class="hero-intro">Hi! I am currently studying Computer Systems and Networking at JNEC. 
+              I enjoy building applications and websites, exploring new technologies, and improving my programming skills. 
+              I am interested in developing useful and creative digital solutions. 
+              I am looking for opportunities to gain practical experience, learn new skills, 
+              work on real-world projects, and grow as a developer.</p>
+            <div class="d-flex flex-wrap gap-2 mt-4">
+              <a href="#projects" class="btn btn-accent btn-lg">View my projects</a>
+              <a href="#contact" class="btn btn-outline-accent btn-lg">Contact me</a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-end">
+            <!-- EDIT: replace profile.jpg with your own photo (square, at least 600x600) -->
+            <img src="images/profile.jpg" alt="Portrait of Kinzang Dendup" class="profile-img"
+                 width="320" height="320"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 320 320%22%3E%3Crect width=%22320%22 height=%22320%22 fill=%22%23cbd5e1%22/%3E%3Ctext x=%2250%25%22 y=%2255%25%22 text-anchor=%2２middle%２ font-size=%２60%２ fill=%２%２364748b%２ font-family=%２sans-serif%２%3EPhoto%3C/text%3E%3C/svg%3E'">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="row g-5">
+          <div class="col-lg-7">
+            <!-- EDIT: write 2 short paragraphs about yourself -->
+            <p class="lead-text">I am a Computer Systems and Networking student at Jigme Namgyel Engineering College (JNEC) with a strong interest in software development and emerging technologies.
+              I am passionate about designing and developing applications and websites that provide practical solutions to real-world problems. 
+              I am driven by a desire to continuously expand my technical knowledge, strengthen my problem-solving abilities, and gain hands-on experience. 
+              My goal is to become a skilled IT professional and contribute to the development of innovative technology solutions..
+            <p class="lead-text">My career goal is to become a Full-Stack Developer and System Administrator. 
+              I am motivated by the desire to create useful applications, build innovative digital solutions, and understand how computer systems and networks operate. 
+              I believe that technology has the power to solve real-world problems and make people's lives easier. 
+              I want to keep pushing myself beyond my comfort zone, gain practical experience, and become a confident IT professional who can both develop software and manage reliable IT infrastructure. 
+              Ultimately, I hope to use my knowledge and skills to make a positive impact through technology.</p>
+          </div>
+          <div class="col-lg-5">
+            <div class="fact-list">
+              <!-- EDIT: replace with your own facts -->
+              <div class="fact"><span class="fact-label">Studying</span><span>Computer Systems and Networking</span></div>
+              <div class="fact"><span class="fact-label">Interests</span><span>Exploring new things, Playing Basketball</span></div>
+              <div class="fact"><span class="fact-label">Goal</span><span>Become a skilled IT professional</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h3 class="h5 mb-3">Technical</h3>
+            <!-- EDIT: set each data-level (0-100) honestly and rename skills -->
+            <div class="skill" data-level="85">
+              <div class="d-flex justify-content-between"><span>HTML &amp; CSS</span><span class="skill-pct">85%</span></div>
+              <div class="progress" role="progressbar" aria-label="HTML and CSS" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar"></div></div>
+            </div>
+            <div class="skill" data-level="80">
+              <div class="d-flex justify-content-between"><span>JavaScript</span><span class="skill-pct">80%</span></div>
+              <div class="progress" role="progressbar" aria-label="JavaScript" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar"></div></div>
+            </div>
+            <div class="skill" data-level="75">
+              <div class="d-flex justify-content-between"><span>Python</span><span class="skill-pct">75%</span></div>
+              <div class="progress" role="progressbar" aria-label="Python" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar"></div></div>
+            </div>
+            <div class="skill" data-level="70">
+              <div class="d-flex justify-content-between"><span>Git &amp; GitHub</span><span class="skill-pct">70%</span></div>
+              <div class="progress" role="progressbar" aria-label="Git and GitHub" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3 class="h5 mb-3">Other skills</h3>
+            <!-- EDIT: soft skills, languages, tools -->
+            <div class="d-flex flex-wrap gap-2">
+              <span class="chip">Problem solving</span>
+              <span class="chip">Teamwork</span>
+              <span class="chip">Communication</span>
+              <span class="chip">Time management</span>
+              <span class="chip">English, DzongKha, Hindi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-4">
+          <h2 class="section-title mb-0">Projects</h2>
+          <div class="btn-group" role="group" aria-label="Filter projects" id="projectFilters">
+            <button type="button" class="btn btn-outline-secondary btn-sm active" data-filter="all">All</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-filter="web">Web</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-filter="python">Python</button>
+          </div>
+        </div>
+
+        <div class="row g-4" id="projectGrid">
+          <!-- EDIT each project: title, description, technologies, data-category, and real links.
+               Keep at least three. Remove a link button only if the project truly has none. -->
+          <div class="col-md-6 col-lg-4 project" data-category="web">
+            <article class="card project-card h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Project One</h3>
+                <p class="card-text">JNEC Events_HubS</p>
+                <div class="d-flex flex-wrap gap-1 mb-3">
+                  <span class="tech">HTML</span><span class="tech">CSS</span><span class="tech">JavaScript</span>
+                </div>
+                <div class="mt-auto d-flex gap-2">
+                  <a class="btn btn-sm btn-accent" href="https://github.com/drewdendup11/events_hub.git" target="_blank" rel="noopener">
+                    <i class="bi bi-github" aria-hidden="true"></i> Code</a>
+                  <a class="btn btn-sm btn-outline-accent" href="https://eventshub-three.vercel.app/" target="_blank" rel="noopener">
+                    <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Live</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 project" data-category="python">
+            <article class="card project-card h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Project two </h3>
+                <p class="card-text">It's a tea timer</p>
+                <div class="d-flex flex-wrap gap-1 mb-3">
+                  <span class="tech">HTML</span><span class="tech">CSS</span><span class="tech">JavaScript</span>
+                </div>
+                <div class="mt-auto d-flex gap-2">
+                  <a class="btn btn-sm btn-accent" href="https://github.com/drewdendup11/steep--a-tea-timer.git" target="_blank" rel="noopener">
+                    <i class="bi bi-github" aria-hidden="true"></i> Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <!-- EDIT: most recent first -->
+          <div class="timeline-item">
+            <p class="timeline-date">2026 to present</p>
+            <h3 class="h5">College</h3>
+            <p class="mb-0">Diploma in Computer Systems And Networking
+              <br>Jigme Namgyel Engineering College (JNEC) <span>Dewathang</span>
+            </p>
+          </div>
+          <div class="timeline-item">
+            <p class="timeline-date">2023 to 2024</p>
+            <h3 class="h5">Higher Secondary Education</h3>
+            <p class="mb-0">Karma Academy
+             <br> Location: Paro, Bhutan. 
+            </p>
+          </div>
+        </div>
+
+        <h3 class="h5 mt-5 mb-3">Certifications</h3>
+        <ul class="list-unstyled cert-list">
+          <!-- EDIT: or remove this block if you have none -->
+          <li><i class="bi bi-patch-check" aria-hidden="true"></i>Linux Server Administration</li>
+        </ul>
+        <div class="certifications">
+
+    <div class="certificate-card">
+        <p>Issued by: Courseas</p>
+        <p>Year: 2026</p>
+
+        <a href="certificate/linux.pdf"
+           target="_blank"
+           class="btn btn-accent">
+            View Certificate
+        </a>
+    </div>
+     </div>
+
+        <h3 class="h5 mt-5 mb-3">Certifications</h3>
+        <ul class="list-unstyled cert-list">
+          <!-- EDIT: or remove this block if you have none -->
+          <li><i class="bi bi-patch-check" aria-hidden="true"></i>Fullstake On Laravel And PHP</li>
+        </ul>
+        <div class="certifications">
+
+    <div class="certificate-card">
+        <p>Issued by: Courseas</p>
+        <p>Year: 2026</p>
+
+        <a href="certificate/fullstake.pdf"
+           target="_blank"
+           class="btn btn-accent">
+            View Certificate
+        </a>
+    </div>
+
+</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <p>Have a question or an opportunity? Send a message or reach me directly.</p>
+            <ul class="list-unstyled contact-list">
+              <!-- EDIT: your real details -->
+              <li><i class="bi bi-envelope" aria-hidden="true"></i> <a href="mailto:drewdendup11@gmail.com">drewdendup11@gmail.com</a></li>
+              <li><i class="bi bi-github" aria-hidden="true"></i> <a href="https://github.com/drewdendup11" target="_blank" rel="noopener">github.com/drewdendup11</a></li>
+              <li><i class="bi bi-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/kinzang-dendup-662540425
+" target="_blank" rel="noopener">linkedin.com/in/kinzang-dendup</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-7">
+            <form id="contactForm" class="needs-validation" novalidate>
+              <div class="mb-3">
+                <label for="cName" class="form-label">Your name</label>
+                <input type="text" class="form-control" id="cName" required minlength="2">
+                <div class="invalid-feedback">Enter your name (at least 2 characters).</div>
+              </div>
+              <div class="mb-3">
+                <label for="cEmail" class="form-label">Your email</label>
+                <input type="email" class="form-control" id="cEmail" required>
+                <div class="invalid-feedback">Enter a valid email address.</div>
+              </div>
+              <div class="mb-3">
+                <label for="cMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="cMessage" rows="5" required minlength="10"></textarea>
+                <div class="invalid-feedback">Write a message of at least 10 characters.</div>
+              </div>
+              <button type="submit" class="btn btn-accent">Send message</button>
+              <div id="formStatus" class="mt-3" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-wrap justify-content-between gap-2">
+      <span>&copy; <span id="year"></span> Kinzang Dendup</span>
+      <span>Built with HTML, CSS, JavaScript and Bootstrap</span>
+    </div>
+  </footer>
+
+  <button id="toTop" class="btn btn-accent to-top" type="button" aria-label="Back to top" hidden>
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
